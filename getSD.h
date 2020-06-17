@@ -1,3 +1,5 @@
+#ifndef GETSDFTN_H
+#define GETSDFTN_H
 double getSDftn (vector<double> xVector) {
     double sumX; // sum of x values
     sumX = 0.0;
@@ -30,3 +32,4 @@ double getSDftn (vector<double> xVector) {
 
     return(sd);
 }
+#endif
