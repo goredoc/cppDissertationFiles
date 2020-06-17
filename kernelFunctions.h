@@ -9,6 +9,8 @@
 //enable this line to test
 //using namespace std;
 
+#ifndef KERNELFUNCTIONS_H
+#define KERNELFUNCTIONS_H
 double getKernelDensityftn (double Yvalue, vector<double> Xvector) {
     vectorLength = Xvector.size();
     double h;
@@ -57,6 +59,7 @@ double getKofUftn (double U){
     return(KofU);
 }
 
+#endif
 // code to test
 //int main(){
 //    vector<double> datavector;
