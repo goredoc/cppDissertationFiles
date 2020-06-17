@@ -9,6 +9,8 @@
 // from 0 to 1
 // uniformly distributed
 
+#ifndef SELECTPARTICLEXFITNESS_H
+#define SELECTPARTICLEXFITNESS_H
 double random01()
  {
   int elapsed_seconds = time(nullptr);
@@ -131,6 +133,7 @@ int selectParticleXFitness (vector<double> FitnessVector, int inverseYN, int log
   // i4908 is the index value of the particle chosen
   return(i4908);
  }
+#endif
 
 //int main()
 //  {
