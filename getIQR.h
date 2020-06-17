@@ -2,6 +2,8 @@
 #include <vector>
 #include <algorithm>
 
+#ifndef GETIQR_H
+#define GETIQR_H
 double getIQRftn (vector<double> v)
 {
     sort(v.begin(), v.end());
@@ -57,4 +59,4 @@ double getIQRftn (vector<double> v)
 return(IQR);
 }
 
-
+#endif
